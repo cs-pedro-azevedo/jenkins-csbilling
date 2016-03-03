@@ -1,5 +1,6 @@
 FROM jenkins
 
+# Exposing needed ports
 EXPOSE 8080
 EXPOSE 50000
 
