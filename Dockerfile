@@ -25,5 +25,3 @@ RUN curl -O /var/jenkins_home/plugins/thinBackup.hpi https://updates.jenkins-ci.
 
 # Get backups
 RUN cd /
-RUN mkdir $DIR
-RUN aws s3 sync s3://$BUCKET_NAME/$APP $DIR
