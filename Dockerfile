@@ -25,6 +25,3 @@ RUN curl -O /var/jenkins_home/plugins/thinBackup.hpi https://updates.jenkins-ci.
 
 # Get backups
 RUN cd /
-
-
-PEDRO TESTE FUNCIONOU
